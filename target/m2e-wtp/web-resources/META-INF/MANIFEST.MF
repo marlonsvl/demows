@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: demows
+Implementation-Version: 1
+Built-By: utpl
+Implementation-Vendor-Id: ec.edu.utpl
+Build-Jdk: 1.8.0_25
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
