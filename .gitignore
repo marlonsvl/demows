@@ -1,6 +1,4 @@
-*/target/maven-archiver/*
-*/target/maven-status/*
-*/target/*
+target/
 *.war
 *.war.original
 *.ear
