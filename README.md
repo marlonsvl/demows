@@ -17,6 +17,13 @@ No olvidar todas las librerías que se agregan en el archivo pom.xml
 
 Para probar los servicios web se ejecuta desde STS click derecho en el proyecto > Run as > Spring Boot App
 
+Para ejecutarlo desde la consola se ejecuta el siguiente comando:
+```
+mvn spring-boot:run
+```
+
+Mas info aqui http://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-running-your-application.html
+
 ### Usando el cliente curl
 
 ####curl http://localhost:8080
@@ -121,17 +128,17 @@ Date: Wed, 26 Feb 2014 20:26:55 GMT
 
 ####Se puede usar también PUT, PATCH and DELETE REST 
 
-####curl -X PUT -H "Content-Type:application/json" -d '{ "firstName": "Bilbo", "lastName": "Baggins" }' http://localhost:8080/people/1
-####curl http://localhost:8080/people/1
+######curl -X PUT -H "Content-Type:application/json" -d '{ "firstName": "Bilbo", "lastName": "Baggins" }' http://localhost:8080/people/1
+######curl http://localhost:8080/people/1
 
 
 
-####curl -X PATCH -H "Content-Type:application/json" -d '{ "firstName": "Bilbo Jr." }' http://localhost:8080/people/1
-####curl http://localhost:8080/people/1
+######curl -X PATCH -H "Content-Type:application/json" -d '{ "firstName": "Bilbo Jr." }' http://localhost:8080/people/1
+######curl http://localhost:8080/people/1
 
 
-####curl -X DELETE http://localhost:8080/people/1
-####curl http://localhost:8080/people
+######curl -X DELETE http://localhost:8080/people/1
+######curl http://localhost:8080/people
 
 
 
