@@ -1,8 +1,8 @@
-# Demo WS
+# Demo WS (Spring Boot App)
 
 ## Proyecto RESTful accediendo a MySQL con JPA
 
-El proyecto ha sido creado usando Spring Root.
+El proyecto ha sido creado usando Spring Boot App.
 
 La base de datos se llama 'demows' y se crea solamente una tabla llamada 'person'
 
