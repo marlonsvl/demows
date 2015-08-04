@@ -140,6 +140,15 @@ Date: Wed, 26 Feb 2014 20:26:55 GMT
 ######curl -X DELETE http://localhost:8080/people/1
 ######curl http://localhost:8080/people
 
+#####Enlace para la resolución de problemas de empaquetado en war o jar
+
+http://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#build-tool-plugins-maven-packaging
+
+https://spring.io/blog/2014/03/07/deploying-spring-boot-applications
+
+#####Enlace para propiedades en el archivo application.properties
+
+http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#common-application-properties
 
 
 
