@@ -26,7 +26,7 @@ Mas info aqui http://docs.spring.io/spring-boot/docs/current/reference/html/usin
 
 ### Usando el cliente curl
 
-####curl http://localhost:8080
+####curl http://localhost:8080/demows/
 
 Se muestra los siguiente:
 
@@ -41,7 +41,7 @@ Se muestra los siguiente:
 }
 ```
 
-####curl http://localhost:8080/people
+####curl http://localhost:8080/demows/people
 
 Se muestra los siguiente
 
@@ -84,7 +84,7 @@ Content-Length: 0
 Date: Wed, 26 Feb 2014 20:26:55 GMT
 ```
 
-####curl http://localhost:8080/people/1
+####curl http://localhost:8080/demows/people/1
 
 ```
 {
@@ -92,24 +92,24 @@ Date: Wed, 26 Feb 2014 20:26:55 GMT
   "lastName" : "Baggins",
   "_links" : {
     "self" : {
-      "href" : "http://localhost:8080/people/1"
+      "href" : "http://localhost:8080/demows/people/1"
     }
  }
 ```
 
-####curl http://localhost:8080/people/search
+####curl http://localhost:8080/demows/people/search
 
 ```
 {
   "_links" : {
     "findByLastName" : {
-      "href" : "http://localhost:8080/people/search/findByLastName{?name}",
+      "href" : "http://localhost:8080/demowspeople/search/findByLastName{?name}",
       "templated" : true
     }
 }
 ```
 
-####curl http://localhost:8080/people/search/findByLastName?name=Viñan
+####curl http://localhost:8080/demows/people/search/findByLastName?name=Viñan
 
 ```
 {
@@ -119,7 +119,7 @@ Date: Wed, 26 Feb 2014 20:26:55 GMT
       "lastName" : "Viñan",
       "_links" : {
         "self" : {
-          "href" : "http://localhost:8080/people/2"
+          "href" : "http://localhost:8080/demows/people/2"
         }
       }
     } ]
@@ -128,17 +128,17 @@ Date: Wed, 26 Feb 2014 20:26:55 GMT
 
 ####Se puede usar también PUT, PATCH and DELETE REST 
 
-######curl -X PUT -H "Content-Type:application/json" -d '{ "firstName": "Bilbo", "lastName": "Baggins" }' http://localhost:8080/people/1
-######curl http://localhost:8080/people/1
+######curl -X PUT -H "Content-Type:application/json" -d '{ "firstName": "Bilbo", "lastName": "Baggins" }' http://localhost:8080/demows/people/1
+######curl http://localhost:8080/demows/people/1
 
 
 
-######curl -X PATCH -H "Content-Type:application/json" -d '{ "firstName": "Bilbo Jr." }' http://localhost:8080/people/1
-######curl http://localhost:8080/people/1
+######curl -X PATCH -H "Content-Type:application/json" -d '{ "firstName": "Bilbo Jr." }' http://localhost:8080/demows/people/1
+######curl http://localhost:8080/demows/people/1
 
 
-######curl -X DELETE http://localhost:8080/people/1
-######curl http://localhost:8080/people
+######curl -X DELETE http://localhost:8080/demows/people/1
+######curl http://localhost:8080/demows/people
 
 #####Enlace para la resolución de problemas de empaquetado en war o jar
 
