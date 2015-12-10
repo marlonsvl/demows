@@ -1,5 +1,8 @@
 # Demo WS (Spring Boot App)
 
+Niveles de madurez del Dr. Leonard Richardson http://martinfowler.com/articles/richardsonMaturityModel.html
+
+
 ## Proyecto RESTful accediendo a MySQL con JPA
 
 El proyecto ha sido creado usando Spring Boot App.
@@ -150,7 +153,10 @@ https://spring.io/blog/2014/03/07/deploying-spring-boot-applications
 
 http://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#common-application-properties
 
-
+#####Otros enlaces sobre documentacion de servicios web
+http://docs.spring.io/spring-data/rest/docs/current/reference/html/
+http://spring.io/guides/tutorials/bookmarks/
+https://github.com/spring-projects/spring-security-oauth/tree/master/tests/annotation/jdbc
 
 
 
